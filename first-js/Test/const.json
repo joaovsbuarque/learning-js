@@ -1,0 +1,17 @@
+let btnGet = document.querySelector('button');
+let result = document.querySelector('h1');
+
+let timestamp = 1605641858
+//seconds since Jan 01 1970. (UTC)
+
+btnGet.addEventListener('click', () => {
+    let dateObj = new Date(timestamp);
+
+    let mounth = dateObj.getMonth() +1;
+    let year = dateObj.getFullYear();
+    let Date = dateObj.getDate();
+
+    console = `${mounth}/${date}/${year}`
+} )
+
+export default btnGet
