@@ -2,7 +2,7 @@ let i = 0
 
 while (i <= 10 ) {
 console.log(i)
-i++; //Nunca esquecer essa liha pq vai travar o navegador por ser um laço infinito
+i++; //Nunca esquecer essa linha pq vai travar o navegador por ser um laço infinito
 }
 
 console.log('Segue a vida...')
