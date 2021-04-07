@@ -1,0 +1,13 @@
+function mostrarHora() {
+    let data = new Date()
+
+    return data.toLocaleDateString('pt-BR', {
+        hour12: false
+    });
+}
+
+function funcaoDoIntercal() {
+    console.log(mostrarHora());
+}
+
+setInterval(funcaoDoIntercal, 1000)
