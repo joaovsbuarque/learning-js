@@ -54,13 +54,14 @@ background: var(--primary-color-darker);
 }
 
 .calculadora{
-    width: 400px;
+    width: 500px;
 }
 
 .display {
     font-size: 2em;
     width: 100%;
     text-align: right;
+    align-items: center;
 }
 
 .btn{
