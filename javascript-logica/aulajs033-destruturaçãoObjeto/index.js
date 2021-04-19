@@ -1,4 +1,4 @@
-const pessoa ={
+const pessoa = {
     nome: 'João',
     sobrenome: 'Buarque',
     idade: 24,

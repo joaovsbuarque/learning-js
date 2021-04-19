@@ -1,0 +1,2 @@
+var myList = [["Joao", 24], ["Yago", 20], ["Mae", 50], ["Pai", 60], ["cachorro", 2]];
+console.log(myList);
