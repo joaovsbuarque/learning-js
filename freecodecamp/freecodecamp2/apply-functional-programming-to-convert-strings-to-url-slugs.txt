@@ -1,0 +1,8 @@
+// Only change code below this line
+var globalTitle = "Winter Is Coming"
+
+function urlSlug(title) {
+  return title.split(" ").filter(word => word !== "").map(word => word.toLowerCase()).join("-");
+
+}
+// Only change code above this line
