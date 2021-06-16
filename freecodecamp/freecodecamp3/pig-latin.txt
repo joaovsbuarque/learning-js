@@ -1,0 +1,22 @@
+function translatePigLatin(str) {
+  let vowels = ['a', 'e', 'i', 'o', 'u'];
+  let cluster = '';
+
+  for (let i = 0; i < str.length; i++){
+    if (vowels.some(v => v === str[i])){
+      break;
+    } else {
+      cluster += str[i];
+    }
+  }
+  
+  if ( cluster === '') {
+    return str + 'way';
+  } else {
+    return str.slice(cluster.length,) + cluster + 'ay'
+  }
+
+  return str;
+}
+
+console.log(translatePigLatin("california"));
